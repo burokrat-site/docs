@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://burokrat-site.github.io/",
+  site: "https://burokrat-site.github.io/docs",
   integrations: [
     starlight({
       title: "Burokrat Docs",

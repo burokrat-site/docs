@@ -1,0 +1,39 @@
+---
+title: Installing Coolify
+description: Installing Coolify on VPS
+---
+
+import { Aside, Steps } from '@astrojs/starlight/components';
+
+This guide will help you set up Coolify.
+
+
+### Install Coolify
+
+<Aside type="caution">
+	You need to login as root user to setup Coolify.
+  Some VPS providers do not allow root login by default. You can switch to root user with `sudo su` command.
+</Aside>
+
+Install Coolify with the following command:
+
+```bash
+curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
+```
+
+Wait for the installation to complete.
+
+After the installation is complete, you will see the following message:
+
+```text
+You can access Coolify through your Public IP: http://xx.xx.xx.xx:8000
+```
+
+This is the web interface you can access before setting up a domain.
+
+
+### Registering
+
+Register a new account. This will be your admin account. New users can be invited via email in the teams directory.
+
+Skip onboarding.

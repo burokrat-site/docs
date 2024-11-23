@@ -17,7 +17,6 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Local Development", slug: "guides/local-development" },
             { label: "Setting up VPS", slug: "guides/setup" },
             { label: "Installing Coolify", slug: "guides/coolify" },
             { label: "Deployment", slug: "guides/deployment" },

@@ -69,6 +69,27 @@ This guide will help you deploy your application with Coolify.
 
 5. Setting up environment variables.
 
-   
+   In the `Configuration` page choose `Environment Variables`, click on the `Developer View` button.
+
+   Copy your local `.env` variables and paste them into the `Production Environment Variables` field. Press the `Save All Environment Variables` button.
+
+   Go back into normal view by pressing the `Normal View` button.
+
+   You can now change all the variables in this page.
+
+   The mandatory variables are:
+
+   - API_ACCESS_TOKEN
+   - CRYPTO_SECRET
+   - DATABASE_URL (we saved it earlier)
+   - JWT_SECRET
+   - SESSION_SECRET
+   - STRIPE_SK
+
+   Enter values and hit the `Deploy` button.
+
+   On the Deployment page you can press the `Show Debug Logs` to watch the container build process.
 
 </Steps>
+
+ If everything went well, you should see the `Rolling update completed.` message.

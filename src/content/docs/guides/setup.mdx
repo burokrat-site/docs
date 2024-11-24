@@ -5,16 +5,15 @@ description: Setting up VPS for website
 
 import { Aside } from '@astrojs/starlight/components';
 
-TODO: **Add information after the provider has been chosen.**
-
 This guide will help you set up a VPS with Coolify.
 
-Create a new VPS from your VPS provider.
+Create a new VPS from your VPS provider. Choose a clean Ubuntu v22 image.
 
 <Aside>It is recommended to use a server with at least 3 cpus, 4GB RAM and 50GB disk space.</Aside>
+
 
 Connect to your VPS with ssh and update the server:
 
 ```bash
-sudo apt update -y
+sudo apt update && sudo apt upgrade -y
 ```
